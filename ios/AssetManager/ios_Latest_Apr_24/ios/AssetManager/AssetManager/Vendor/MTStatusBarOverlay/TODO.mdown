@@ -1,0 +1,6 @@
+TODO
+=================
+
+* listen for Notification when status bar-Visibility changes (is there any)?
+* implement more animation-modes
+* overthink concept for iPad, not really needed to overlay whole status bar
