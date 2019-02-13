@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="left|top|center|bottom">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgBtnReviewAssets"
+            android:drawableLeft="@drawable/review_assets"
+            android:text="@string/title_review_assets"
+            android:gravity="left|center_vertical"
+            android:background="#ffffff"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/title_review_assets" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#33333333" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgBtnSwapAssets"
+            android:drawableLeft="@drawable/swap_assets"
+            android:text="@string/title_swap_assets"
+            android:gravity="left|center_vertical"
+            android:background="#ffffff"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/title_swap_assets" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#33333333" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgBtnInventoryAudit"
+            android:drawableLeft="@drawable/inventory_audit"
+            android:text="@string/title_inventory_audit"
+            android:gravity="left|center_vertical"
+            android:background="#ffffff"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/title_inventory_audit" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#33333333" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgBtnConfigureSettings"
+            android:drawableLeft="@drawable/configure_settings"
+            android:text="@string/title_configure_settings"
+            android:gravity="left|center_vertical"
+            android:background="#ffffff"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/title_configure_settings" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#33333333" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgBtnEditAssets"
+            android:drawableLeft="@drawable/edit_assets"
+            android:text="@string/title_edit_settings"
+            android:gravity="left|center_vertical"
+            android:background="#ffffff"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/title_edit_settings" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#33333333" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgBtnDisposeAssets"
+            android:drawableLeft="@drawable/dispose_assets"
+            android:text="@string/title_dispose_assets"
+            android:gravity="left|center_vertical"
+            android:background="#ffffff"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/title_dispose_assets" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#33333333" />
+        </LinearLayout>
+
+</RelativeLayout>

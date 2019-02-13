@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/assetItem"
+        android:background="@drawable/list_row_background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="@string/scan_assets_list_row_asset_item_text"
+                    android:textStyle="bold"
+                    android:padding="2dp"/>
+                    <TextView
+                        android:id="@+id/idScanActivityRowSearchingText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:text="@string/scan_assets_list_row_searching_text"
+                        android:visibility="gone"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/subTitleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:padding="2dp"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/rightImageView"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="10dp"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:visibility="gone"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/list_arrow_new" />
+        </LinearLayout>
+    </LinearLayout>
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/dispose_assets_list_row_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/dispose_assets_list_row_text"
+        style="@style/style_dispose_assets_body_texts"
+        android:textColor="#ffffff"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/dispose_assets_list_row_selected_text"
+        style="@style/style_dispose_assets_body_texts"
+        android:textColor="#ffffff"/>
+</LinearLayout>

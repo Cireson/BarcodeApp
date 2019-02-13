@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custodianSearchRelativeLayout">
+    <LinearLayout
+        style="@style/cireson_main_container"
+        android:orientation="vertical">
+        <LinearLayout style="@style/cireson_header_linear_layout"
+android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+
+            >
+        <TextView
+            style="@style/cireson_title"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_vertical"
+
+            android:text="@string/custodian_search_title"
+            />
+        </LinearLayout>
+        <LinearLayout style="@style/cireson_single_white_line"
+            android:layout_marginBottom="0dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/searchText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="@string/custodian_search_edit_text"
+                android:textColorHint="@android:color/white"
+                android:singleLine="true"
+                android:inputType="textNoSuggestions"
+                android:padding="10dp"
+                android:clickable="false"/>
+            <ImageButton
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_search"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:onClick="searchClicked"
+                android:focusable="true"
+                android:background="@android:color/transparent"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/listViewLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true">
+            <ListView
+                android:id="@+id/custodianSearchList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="singleChoice"
+                android:divider="@drawable/seperator_horizontal"
+                android:clickable="true"
+                >
+            </ListView>
+            </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white_color"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/select_clear_button"
+            style="@style/cireson_footer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_clear"
+            android:onClick="clear"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+        <Button
+            android:id="@+id/select_done_button"
+            style="@style/cireson_footer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_done"
+            android:onClick="done"/>
+    </LinearLayout>
+    <!--<ProgressBar-->
+        <!--android:id="@+id/loadingView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+</RelativeLayout>

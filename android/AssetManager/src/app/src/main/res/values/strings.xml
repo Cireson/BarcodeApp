@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IT Asset Manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome_caps">WELCOME!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_text_login">Log In</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_user">User Name</string>
+    <string name="hint_url_caps">URL</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY CONTENT</string>
+    <string name="title_received_assets">Received Assets</string>
+    <string name="title_activity_review_assets">ReviewAssetsActivity</string>
+    <string name="title_activity_main_nav">MainNavActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_inventory_audit">Inventory Audit</string>
+    <string name="title_configure_settings">Configure Settings</string>
+    <string name="title_edit_assets">Edit Assets</string>
+    <string name="title_dispose_assets">Dispose Assets</string>
+    <string name="title_review_assets">Review Assets</string>
+    <string name="title_swap_assets">Swap Assets</string>
+    <string name="title_activity_search_assets">SearchAssetsActivity</string>
+    <string name="title_activity_asset_search_results">AssetSearchResultsActivity</string>
+    <string name="title_activity_scan_assets">ScanAssets</string>
+    <string name="title_activity_match_confirmation">MatchConfirmationActivity</string>
+    <string name="title_activity_asset_properties">AssetPropertiesActivity</string>
+    <string name="hint_search_by_keyword">Search by Keyword on Order #</string>
+    <string name="search_asset">Search Asset</string>
+    <string name="text_or">- or -</string>
+    <string name="browse_all_products">Browse All Products</string>
+    <string name="title_activity_inventory_audit">InventoryAudit</string>
+    <string name="title_activity_configure_settings">ConfigureSettings</string>
+    <string name="button_scan">Scan</string>
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="scan_bar_code">Scan Barcode</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="scan_anything">Scan Codes</string>
+    <string name="result_succeeded">Found barcode</string>
+    <string name="result_failed">No barcode found</string>
+    <string name="barcode_exists">Barcode exists</string>
+    <string name="result_failed_why">The user gave up and pressed Back button</string>
+    <string name="ok_button">OK</string>
+    <string name="touch_to_scan">Tap to Scan</string>
+    <string name="next">Next</string>
+    <string name="scanned_items">Scanned Items</string>
+    <string name="title_activity_main_nav_ex">MainNavExActivity</string>
+    <string name="title_activity_inventory_search">InventorySearchActivity</string>
+    <string name="by_cireson">by Cireson</string>
+    <string name="splash_it_assets_management">IT Asset Management</string>
+    <string name="warning">Warning</string>
+    <string name="error">Error</string>
+    <string name="message">Message</string>
+
+    <!-- Button texts -->
+    <string name="start_new_purchase_order">Start New Purchase Order</string>
+    <string name="button_save">Save</string>
+    <string name="button_done">Done</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_search">Search</string>
+    <string name="button_home">Home</string>
+    <string name="button_email">Email</string>
+
+    <!-- Login Activity -->
+    <string name="login_success_message">Logged in</string>
+    <string name="login_failed_message">Sorry, login failed. Please check user credentials and your network connection</string>
+    <string name="login_prompt_incomplete_credentials">Please specify the login credentials correctly.</string>
+
+    <!-- Main Navigation Activity -->
+    <string name="menu_receive_assets">Receive Assets</string>
+    <string name="menu_swap_assets">Swap Assets</string>
+    <string name="menu_edit_assets">Edit Assets</string>
+    <string name="menu_inventory_audit">Inventory Audit</string>
+    <string name="menu_dispose_assets">Dispose Assets</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Assets search Activity -->
+    <string name="search_assets_title">FIND ASSETS</string>
+    <string name="search_assets_search_edit_text_hint">Search by Purchase Order #</string>
+    <string name="search_assets_browse_button_text">Browse Purchase Orders</string>
+    <string name="search_assets_receive_assets_button_text">Add Assets</string>
+    <string name="search_assets_search_text_field_empty">Search field must not be empty</string>
+
+    <!-- Assets search result Activity -->
+    <string name="search_assets_result_title">Search Results for:</string>
+    <string name="search_assets_text_for_scan_assets_title">Match Assets for </string>
+    <string name="search_assets_result_sub_title">Last 90 days</string>
+    <string name="search_assets_result_purchase_order_not_found">Purchase order not found.</string>
+
+    <!-- Assets scanner Activity -->
+    <string name="scan_assets_title_for_add">Scan Assets to Add</string>
+    <string name="scan_assets_title_for_swap">Scan Asset to Swap</string>
+    <string name="scan_assets_title_for_edit">Scan Assets to Edit</string>
+    <string name="scan_assets_title_for_dispose">Scan Assets to Dispose</string>
+    <string name="scan_assets_zinx_fragment_button_scan">USE CAMERA</string>
+    <string name="scan_assets_zinx_fragment_button_use_bluetooth">USE BLUETOOTH</string>
+    <string name="scan_assets_title_for_dialog">Scan Assets to Dispose</string>
+    <string name="scan_assets_title_for_dialog_when_scan_for_receive_Assets">
+        New assets will be created with the scanned barcodes. Were the barcodes scanned with the asset tag or serial number of the hardware asset?
+        Note: If there were errors while looking up the barcodes, they will be discarded
+    </string>
+    <string name="scan_assets_title_for_dialog_when_scan_for_receive_Assets_changed">
+        New assets will be created with the scanned barcodes. Were the barcodes scanned with the asset tag or serial number of the hardware asset?
+    </string>
+    <string name="scan_assets_title_for_dialog_to_prompt_user__with_list_when_scan_for_receive_Assets">Were the barcode scanned the asset tag or serial number of the hardware asset?</string>
+    <string name="scan_assets_title_for_warning_dialog">Are you sure you want to Delete this item?</string>
+    <string name="scan_assets_choice_asset_tag">Asset Tag</string>
+    <string name="scan_assets_choice_serial_number">Serial Number</string>
+    <string name="scan_assets_list_row_asset_item_text">Asset Item</string>
+    <string name="scan_assets_list_row_searching_text">(Searching...)</string>
+    <string name="scan_assets_list_row_search_error_text">(error)</string>
+    <string name="scan_assets_no_matched_assets_error_message">All assets for this purchase order have been assigned.</string>
+    <string name="scan_assets_no_matched_assets_to_go_to_next_page">Please match at least one asset.</string>
+    <string name="scan_assets_no_asset_to_go_to_next_page">Please scan at least one asset to proceed.</string>
+    <string name="scan_assets_no_asset_to_add">Please scan and match at least one asset to proceed.</string>
+    <string name="toast_message_for_scan_assets_activity">Sorry,no data is available to proceed.</string>
+    <string name="scan_assets_no_new_barcode">Please scan at least one new barcode to proceed.</string>
+    <string name="scan_assets_add_assets_api_call_in_process">
+        We are still checking if the assets you have scanned already exist in the system, please try again in a few moments.
+    </string>
+
+    <!-- Possible matched assets activity -->
+    <string name="possible_matched_assets_title">Match Asset for Barcode</string>
+    <string name="possible_matched_assets_sub_title">Number</string>
+
+    <!-- Assets editor activity -->
+    <string name="edit_assets_general_title"></string>
+    <string name="add_assets_title">Assets being created</string>
+    <string name="edit_assets_title_for_swap_count">1</string>
+    <string name="edit_assets_title">Edit Asset Properties</string>
+    <string name="edit_assets_title_for_inventory_audit">Search for Assets</string>
+    <string name="edit_assets_saved_message_for_receive_assets">All Assets have been successfully Saved</string>
+    <string name="edit_assets_saved_message_for_add_assets">All Assets have been successfully Added</string>
+    <string name="edit_assets_saved_message_for_swap_assets">All Assets Have Been Successfully Swapped</string>
+    <string name="edit_assets_saved_message_for_edt_assets">All Assets have been successfully Edited</string>
+    <string name="edit_assets_display_message_for_search_invalid_criteria">Please select at least one criteria to search with</string>
+
+    <!-- Status tree view activity -->
+    <string name="status_title">Select Status</string>
+
+    <!-- Location organization and costcenter Activity -->
+    <string name="select_title">Select</string>
+
+    <!--Swap Assets Note Editor Text Box-->
+    <string name="swap_assets_note_editor_title">Append to Notes</string>
+    <string name="swap_assets_note_editor_text_limit_exceeded">You will exceed the maximum limit of 4000 characters. Please shorten the notes.</string>
+
+    <!-- Custodian search assets Activity -->
+    <string name="custodian_search_title">Select User</string>
+    <string name="custodian_search_edit_text">Search for user</string>
+    <string name="custodian_search_edit_text_empty">Please specify a text to search.</string>
+    <string name="custodian_search_edit_text_unsufficient_characters">A minimum of 3 characters are required.</string>
+
+    <!-- Date picker Activity -->
+    <string name="date_picker_title">Select Date</string>
+    <string name="date_picter_check_box_descriptor">Do not use date</string>
+
+    <!-- Inventory search Activity -->
+    <string name="inventory_search_title">Search Results</string>
+    <string name="inventory_search_sub_title">text</string>
+    <string name="inventory_search_text_found">Found</string>
+    <string name="inventory_search_text_assets">assets</string>
+    <string name="inventory_search_text_to_swap">Choose one to swap</string>
+    <string name="inventory_search_error_in_search">Some error occurred while searching assets.</string>
+    <string name="inventory_search_criteria_required">Search Criteria Required.</string>
+    <string name="inventory_search_no_assets_found">No assets were found with the selected criteria, please modify your search and try again.</string>
+    <string name="inventory_search_asset_disposed_state_for_dispose_flow">Already Disposed</string>
+
+    <!--<string name="inventory_search_no_assets_found_as_api_response">No assets found matching the criteria.</string>-->
+    <string name="inventory_search_no_asset_found_as_matched_for_swap">Could not find an Asset with ID:</string>
+    <string name="inventory_search_list_row_asset_name">Asset Name: </string>
+    <string name="inventory_search_list_row_manufacturer">Manufacturer: </string>
+    <string name="inventory_search_list_row_model">Model: </string>
+    <string name="inventory_search_list_row_serial_number">Serial #: </string>
+    <string name="inventory_search_list_row_asset_tag">Asset Tag: </string>
+
+    <!-- Disposal reference editor Activity -->
+    <string name="edit_dispose_ref_title_for_added_assets_manufacturer">Edit Manufacturer</string>
+    <string name="edit_dispose_ref_title_for_added_assets_model">Edit Model</string>
+    <string name="edit_dispose_ref_title"></string>
+    <string name="edit_dispose_ref_edit_text"></string>
+    <string name="edit_dispose_ref_general_title">Edit Disposal Reference</string>
+    <string name="edit_dispose_ref_title_for_dispose">Edit Disposal Reference</string>
+    <string name="edit_dispose_ref_title_for_swap_edit_assets_name">Edit Asset Name</string>
+    <string name="edit_dispose_ref_title_for_swap_edit_serial_number">Edit Asset Serial Number</string>
+    <string name="edit_dispose_ref_title_for_swap_edit_asset_tag">Edit Asset Tag</string>
+
+    <!-- Inventory audits email settings activity -->
+    <string name="review_email_settings_title">Audit Results Review</string>
+    <string name="review_email_settings_not_inventoried">Not Inventoried</string>
+    <string name="review_email_settings_inventoried">Inventoried</string>
+    <string name="review_email_settings_no_match">No Match</string>
+
+    <!-- Assets disposal activity -->
+    <string name="dispose_purchase_count">12</string>
+    <string name="dispose_purchase_title">Assets Being Disposed</string>
+    <string name="dispose_purchase_date">Disposal Date</string>
+    <string name="dispose_purchase_reference_number">Disposal Reference</string>
+    <string name="dispose_purchase_clear_primary_user">Clear Primary User</string>
+    <string name="dispose_purchase_clear_custodian">Clear Custodian</string>
+    <string name="dispose_purchase_dispose_success"> All Assets have been successfully disposed.</string>
+
+    <!-- The settings activity -->
+    <string name="settings_logout">Logout</string>
+    <string name="settings_change_bluetooth_scanner">Change Bluetooth Scanner</string>
+    <string name="settings_currently_using_device_name">Currently using: None</string>
+    <string name="settings_message">Are you sure you want to logout?</string>
+
+    <!-- Settings Activity -->
+    <string name="bluetooth_discovered_devices_title">Discovered Devices</string>
+    <string name="bluetooth_scan_button_devices">Scan Devices</string>
+
+    <!-- API Caller -->
+    <string name="api_call_json_empty">Sorry, no data available to make a request to the server.</string>
+    <string name="api_call_illigal_argument">Sorry, Illigal argument detected to make a request</string>
+    <string name="api_call_unsupported_encoding">Sorry, Unsupported encoding problem occurred</string>
+    <string name="api_call_in_progress">Sorry, Another api call is already in progress for this instance</string>
+    <string name="api_call_parsing_error">Error occured while reading response from the server</string>
+    <string name="api_call_parsing_error2">Error occured while parsing</string>
+    <string name="api_call_array_response_instead">Got array response instead of object</string>
+    <string name="api_call_response_no_wifi_connection">Could not connect to the server</string>
+
+    <!-- Bluetooth messages -->
+    <string name="bluetooth_message">Message</string>
+    <string name="bluetooth_connected">Connected</string>
+    <string name="bluetooth_got_barcode">Got Barcode</string>
+    <string name="bluetooth_not_supported">Sorry, bluetooth is not supported in this device</string>
+    <string name="bluetooth_enabling">Enabling bluetooth</string>
+    <string name="bluetooth_enabled">Bluetooth is already enabled</string>
+    <string name="bluetooth_dialog_discovery_message_title">Make device discoverable</string>
+    <string name="bluetooth_dialog_message">This device is not discoverable. Do you want to make it discoverable?</string>
+    <string name="bluetooth_dialog_message_for_connection_to_device_with_saved_address">This bluetooth device is available for use, do you want to connect to this device?</string>
+    <string name="bluetooth_dialog_message_for_storage_of_device">Do you want to save this device as a pair for next time?</string>
+    <string name="bluetooth_dialog_message_to_replace_device">Do you want to replace previously saved device with this bluetooth device?</string>
+    <string name="bluetooth_dialog_message_device_available">This device is already saved for connection</string>
+    <string name="bluetooth_dialog_message_device_saved_sucess">This device is saved successfully</string>
+    <string name="bluetooth_dialog_message_failed_to_connect_to_scanner">Failed to connect with bluetooth scanner, make sure that the scanner is turned on:</string>
+    <string name="bluetooth_dialog_message_after_connected_to_barcode_scanner">Connected to barcode scanner. Ready to receive barcodes.</string>
+    <string name="bluetooth_dialog_message_connected_to_barcode_scanner">Connected to barcode scanner. Ready to receive barcodes.</string>
+    <string name="bluetooth_dialog_message_disconnected_with_barcode_scanner">Disconnected with barcode scanner.</string>
+
+    <!-- Alert dialog string messages -->
+    <string name="dialog_confirmation">Confirmation</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="progress_dialog_message">Please Wait ...</string>
+    <string name="dialog_success">Success</string>
+    <string name="dialog_ok">Ok</string>
+
+    <!-- alert dialog title and messages for ScanAssets activity -->
+    <string name="scan_assets_dialog_message">There are unknown barcode numbers or unmatched assets, are you sure you want to continue?</string>
+
+    <!-- alert dialog title and messages for PossibleMatchedAssetsActivity activity -->
+    <string name="possible_matched_assets_dialog_message">Which property do you want to assign the barcode to?</string>
+    <string name="possible_matched_assets_dialog_assetTag">Asset tag</string>
+    <string name="possible_matched_assets_dialog_serialNumber">Serial number</string>
+    <string name="title_activity_status_tree_veiw">StatusTreeVeiw</string>
+    <string name="title_activity_custom_dialog">custom_dialog</string>
+    <string name="title_activity_logout">LogoutActivity</string>
+    <string name="title_paired_devices_list">Paired Device List</string>
+    <string name="title_activity_activity_swap_note_editor">activity_swap_note_editor</string>
+
+</resources>

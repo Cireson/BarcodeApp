@@ -1,0 +1,11 @@
+{
+  "data": {
+    "ClassTypeId": "123456",
+    "firstName": "Json",
+    "lastName": "Bourne",
+    "token": "1111111199999999",
+    "Url": "http://172.63.10.00"
+  },
+  "exception": "No exception",
+  "message": "Message"
+}

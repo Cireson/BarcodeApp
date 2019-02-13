@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.cireson.assetmanager.component.CheckableLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:background="@drawable/list_row_background">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/possible_matched_assets_url"
+
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+
+            android:id="@+id/possible_matched_assets_name"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_gravity="left"
+            android:text=""/>
+        <TextView
+            android:id="@+id/possible_matched_assets_serialNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_gravity="left"
+            android:text=""/>
+        <TextView
+            android:id="@+id/possible_matched_assets_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:text=""/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/possibleMatchedAssetsRightImageView"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/checkbox"/>
+    </RelativeLayout>
+</com.cireson.assetmanager.component.CheckableLinearLayout>

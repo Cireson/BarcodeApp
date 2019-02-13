@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Escáner Cireson</string>
+    <string name="hello_world">Hola, mundo!</string>
+    <string name="welcome_caps">BIENVENIDOS!</string>
+    <string name="action_settings">Configuración</string>
+    <string name="login_caps">ACCEDER</string>
+    <string name="title_activity_login">Acceder</string>
+    <string name="hint_password">Pontraseña</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_url_caps">URL</string>
+    <string name="error_invalid_password">Esta contraseña es demasiado corta</string>
+    <string name="error_incorrect_password">Esta contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="action_forgot_password">Recuperar contraseña perdida</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Botón Maniquí</string>
+    <string name="dummy_content">CONTENIDO DUMMY</string>
+    <string name="title_activity_review_assets">ReviewAssetsActivity</string>
+    <string name="title_activity_main_nav">MainNavActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_inventory_audit">Auditoría de la librería</string>
+    <string name="title_configure_settings">Configure Configuración</string>
+    <string name="title_edit_settings">Editar Activos</string>
+    <string name="title_dispose_assets">Deseche Activos</string>
+    <string name="title_review_assets">Revisión Activos</string>
+    <string name="title_swap_assets">Intercambiar Activos</string>
+    <string name="title_activity_search_assets">SearchAssetsActivity</string>
+    <string name="title_activity_asset_search_results">AssetSearchResultsActivity</string>
+    <string name="title_activity_scan_assets">ScanAssets</string>
+    <string name="title_activity_match_confirmation">MatchConfirmationActivity</string>
+    <string name="title_activity_asset_properties">AssetPropertiesActivity</string>
+    <string name="hint_search_by_keyword">Search by Keyword on Order#</string>
+    <string name="search_asset">Search Asset</string>
+    <string name="text_or">- or -</string>
+    <string name="browse_all_products">Browse All Products</string>
+    <string name="button_scan">Scan</string>
+    <string name="scan_bar_code">Scan Barcode</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="result_succeeded">Found barcode</string>
+    <string name="result_failed">No barcode found</string>
+    <string name="result_failed_why">The user gave up and pressed Back button</string>
+    <string name="ok_button">OK</string>
+    <string name="touch_to_scan">Touch to Scan</string>
+    <string name="next">Next</string>
+    <string name="scanned_items">Scanned Items</string>
+
+</resources>

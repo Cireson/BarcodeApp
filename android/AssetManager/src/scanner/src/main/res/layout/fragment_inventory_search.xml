@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.cireson.scanner.view.InventorySearchActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ScrollView
+            android:id = "@+id/items_container_scan_assets"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Location"
+                android:id="@+id/editLocation"
+                android:layout_marginBottom="30dp"
+                android:layout_centerVertical="true"
+                android:gravity="start" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Cost Center"
+                android:id="@+id/editCostCenter"
+                android:layout_marginBottom="30dp"
+                android:layout_centerVertical="true"
+                android:gravity="start" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Organization"
+                android:id="@+id/editOrganization"
+                android:layout_marginBottom="30dp"
+                android:layout_centerVertical="true"
+                android:gravity="start" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Status"
+                android:id="@+id/editStatus"
+                android:layout_marginBottom="30dp"
+                android:layout_centerVertical="true"
+                android:gravity="start" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Custodian User"
+                android:id="@+id/editCustodianUser"
+                android:layout_marginBottom="30dp"
+                android:layout_centerVertical="true"
+                android:gravity="start" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Primary User"
+                android:id="@+id/editPrimaryUser"
+                android:layout_marginBottom="30dp"
+                android:layout_centerVertical="true"
+                android:gravity="start" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Asset Type"
+                android:id="@+id/editAssetType"
+                android:layout_marginBottom="30dp"
+                android:layout_centerVertical="true"
+                android:gravity="start" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_asset"
+            android:id="@+id/searchAssetButton"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="30dp"
+            android:minWidth="100dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</RelativeLayout>

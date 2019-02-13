@@ -1,0 +1,11 @@
+ScanItemController.java containsItem method
+CheckableLinearLayout call requires api level 11
+TreeViewItem call requires api level 11
+AssetsDisposalActivity call requires api level 11
+AssetsSearchActivity call requires api level 11
+BluetoothClient.java call requires api level 15
+
+
+
+
+

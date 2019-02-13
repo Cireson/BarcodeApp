@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Styles in general-->
+    <style name="cireson_main_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/backgroundgradient</item>
+    </style>
+    <style name="cireson_header_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+
+    </style>
+    <style name="cireson_text_title_number">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:text">1</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="cireson_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">19sp</item>
+
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="cireson_sub_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="cireson_body_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="cireson_texts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="cireson_edit_texts">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/corners_bg</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">#dddddd</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="cireson_footer_button">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:textSize">14.5sp</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/rectangle</item>
+    </style>
+    <style name="cireson_scan_assets_choice_buttons">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:textSize">14.5sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:background">@drawable/full_width_button</item>
+    </style>
+    <style name="cireson_cancel_done_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+    <style name="cireson_buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">14.5sp</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+    <style name="cireson_single_white_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="cireson_progress_dialog_theme" parent="@android:style/Theme.Dialog">
+        <item name="android:alertDialogStyle">@style/cireson_custom_dialog_style</item>
+        <!--<item name="android:textColorPrimary">#000000</item>-->
+        <item name="android:background">@drawable/diaolog_box_frame</item>
+        <item name="android:windowBackground">@drawable/diaolog_box_frame</item>
+        <item name="android:textColorSecondary">#000000</item>
+        <item name="android:color">#000000</item>
+    </style>
+    <style name="cireson_custom_dialog_style">000000
+        <item name="android:bottomBright">@color/white_color</item>
+        <item name="android:bottomDark">@color/white_color</item>
+        <item name="android:bottomMedium">@color/white_color</item>
+        <item name="android:topBright">@color/white_color</item>
+        <item name="android:topDark">@color/white_color</item>
+        <item name="android:centerBright">@color/white_color</item>
+        <item name="android:centerDark">@color/white_color</item>
+        <item name="android:centerMedium">@color/white_color</item>
+        <item name="android:fullBright">@color/white_color</item>
+        <item name="android:fullDark">@color/white_color</item>
+    </style>
+    <!--Styles for each activity-->
+    <style name="style_">
+    </style>
+    <style name="style_old_purchase_order">
+    </style>
+    <style name="style_review_email_settings_row">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="logout_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:textColor">@color/orange_text_color</item>
+        <item name="android:background">@drawable/logout_clicked</item>
+    </style>
+    <style name="inventory_assets_search_list_row">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+    <style name="style_dispose_assets_body_lists">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    <style name="style_dispose_assets_body_texts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+</resources>

@@ -1,0 +1,495 @@
+{
+  "data": [
+    {
+      "Amount": "",
+      "AssetStatus": null,
+      "BaseId": "9d2bd99b-6673-c8f2-d7d8-7c4327319e7c",
+      "ClassName": "Cireson.AssetManagement.PurchaseOrder",
+      "ClassTypeId": "2afe355c-24a7-b20f-36e3-253b7249818d",
+      "Currency": "",
+      "DisplayName": "PO-00057",
+      "FullName": "Cireson.AssetManagement.PurchaseOrder:PO-00057",
+      "LastModified": "2014-02-27T00:28:51.223",
+      "LastModifiedBy": "7431e155-3d9e-4724-895e-c03ba951a352",
+      "Notes": "",
+      "ObjectStatus": {
+        "Id": "acdcedb7-100c-8c91-d664-4629a218bd94",
+        "Name": "Active"
+      },
+      "Path": "",
+      "PurchaseOrderDate": "",
+      "PurchaseOrderNumber": "PO-00057",
+      "PurchaseOrderStatus": "",
+      "Source_HardwareAssetHasPurchaseOrder": [
+        {
+          "AssetStatus": null,
+          "AssetTag": "54327",
+          "AssignedDate": "",
+          "BaseId": "f9399773-48ed-baef-fbda-2d7cb8355ac3",
+          "ClassName": "Cireson.AssetManagement.HardwareAsset",
+          "ClassTypeId": "c0c58e7f-7865-55cc-4600-753305b9be64",
+          "Cost": 1200,
+          "Currency": "",
+          "Description": "",
+          "DisplayName": "wks007.demo.local",
+          "DisposalDate": "",
+          "DisposalReference": "",
+          "ExpectedDate": "",
+          "FullName": "Cireson.AssetManagement.HardwareAsset:12351",
+          "HardwareAssetID": 12351,
+          "HardwareAssetStatus": {
+            "Id": "6e3af0fb-38ee-a227-536d-4fcd26506854",
+            "Name": "In Stock"
+          },
+          "HardwareAssetType": {
+            "Id": "2e42a1e2-f073-2658-e09e-1c167c638735",
+            "Name": "Computer"
+          },
+          "LastModified": "2014-02-27T08:00:02.13",
+          "LastModifiedBy": "7431e155-3d9e-4724-895e-c03ba951a352",
+          "LoanReturnedDate": "",
+          "LoanedDate": "",
+          "LocationDetails": "",
+          "Manufacturer": "Lenovo",
+          "ManufacturerEnum": {
+            "Id": "17329ca6-daff-bbd3-c01d-176dbeff2273",
+            "Name": "Lenovo"
+          },
+          "MasterContractEndDate": "",
+          "MasterContractRenewedOn": "",
+          "MasterContractStartingDate": "",
+          "MasterContractStatus": {
+            "Id": "6a397180-2a99-7d58-813f-3b5ea370746b",
+            "Name": "None"
+          },
+          "Model": "W530",
+          "ModelEnum": {
+            "Id": "73204724-4e58-ee03-cba8-9b93f2319716",
+            "Name": "W530"
+          },
+          "Name": "wks007.demo.local",
+          "Notes": "",
+          "ObjectStatus": {
+            "Id": "acdcedb7-100c-8c91-d664-4629a218bd94",
+            "Name": "Active"
+          },
+          "Path": "",
+          "ReceivedDate": "",
+          "SerialNumber": "12351",
+          "TimeAdded": "2014-02-27T00:28:49.187"
+        },
+        {
+          "AssetStatus": {
+            "Id": "f37e8b8c-e3df-47c1-bd23-41cb3c8dfa57",
+            "Name": "Retired"
+          },
+          "AssetTag": "54333",
+          "AssignedDate": "",
+          "BaseId": "83e5d7fc-9dda-659c-ba6a-45d4eb8d9bf6",
+          "ClassName": "Cireson.AssetManagement.HardwareAsset",
+          "ClassTypeId": "c0c58e7f-7865-55cc-4600-753305b9be64",
+          "Cost": 1500,
+          "Currency": "",
+          "Description": "",
+          "DisplayName": "wks013.demo.local",
+          "DisposalDate": "",
+          "DisposalReference": "",
+          "ExpectedDate": "",
+          "FullName": "Cireson.AssetManagement.HardwareAsset:12357",
+          "HardwareAssetID": 12357,
+          "HardwareAssetStatus": {
+            "Id": "51d4f57a-b088-2b4b-d50b-e351004d0b67",
+            "Name": "Retired"
+          },
+          "HardwareAssetType": {
+            "Id": "2e42a1e2-f073-2658-e09e-1c167c638735",
+            "Name": "Computer"
+          },
+          "LastModified": "2014-02-27T08:00:02.517",
+          "LastModifiedBy": "7431e155-3d9e-4724-895e-c03ba951a352",
+          "LoanReturnedDate": "",
+          "LoanedDate": "",
+          "LocationDetails": "",
+          "Manufacturer": "Lenovo",
+          "ManufacturerEnum": {
+            "Id": "17329ca6-daff-bbd3-c01d-176dbeff2273",
+            "Name": "Lenovo"
+          },
+          "MasterContractEndDate": "",
+          "MasterContractRenewedOn": "",
+          "MasterContractStartingDate": "",
+          "MasterContractStatus": {
+            "Id": "6a397180-2a99-7d58-813f-3b5ea370746b",
+            "Name": "None"
+          },
+          "Model": "Edge 91z",
+          "ModelEnum": {
+            "Id": "208268e6-d9d3-176e-7d90-bba26f6425ad",
+            "Name": "Edge 91z"
+          },
+          "Name": "wks013.demo.local",
+          "Notes": "",
+          "ObjectStatus": {
+            "Id": "acdcedb7-100c-8c91-d664-4629a218bd94",
+            "Name": "Active"
+          },
+          "Path": "",
+          "ReceivedDate": "",
+          "SerialNumber": "12357",
+          "TimeAdded": "2014-02-27T00:28:49.187"
+        },
+        {
+          "AssetStatus": null,
+          "AssetTag": "54328",
+          "AssignedDate": "",
+          "BaseId": "5daa2407-9ab6-0fed-1649-70853dff2277",
+          "ClassName": "Cireson.AssetManagement.HardwareAsset",
+          "ClassTypeId": "c0c58e7f-7865-55cc-4600-753305b9be64",
+          "Cost": 1200,
+          "Currency": "",
+          "Description": "",
+          "DisplayName": "wks008.demo.local",
+          "DisposalDate": "",
+          "DisposalReference": "",
+          "ExpectedDate": "",
+          "FullName": "Cireson.AssetManagement.HardwareAsset:12352",
+          "HardwareAssetID": 12352,
+          "HardwareAssetStatus": {
+            "Id": "6e3af0fb-38ee-a227-536d-4fcd26506854",
+            "Name": "In Stock"
+          },
+          "HardwareAssetType": {
+            "Id": "2e42a1e2-f073-2658-e09e-1c167c638735",
+            "Name": "Computer"
+          },
+          "LastModified": "2014-02-27T08:00:02.857",
+          "LastModifiedBy": "7431e155-3d9e-4724-895e-c03ba951a352",
+          "LoanReturnedDate": "",
+          "LoanedDate": "",
+          "LocationDetails": "",
+          "Manufacturer": "Lenovo",
+          "ManufacturerEnum": {
+            "Id": "17329ca6-daff-bbd3-c01d-176dbeff2273",
+            "Name": "Lenovo"
+          },
+          "MasterContractEndDate": "",
+          "MasterContractRenewedOn": "",
+          "MasterContractStartingDate": "",
+          "MasterContractStatus": {
+            "Id": "6a397180-2a99-7d58-813f-3b5ea370746b",
+            "Name": "None"
+          },
+          "Model": "W530",
+          "ModelEnum": {
+            "Id": "73204724-4e58-ee03-cba8-9b93f2319716",
+            "Name": "W530"
+          },
+          "Name": "wks008.demo.local",
+          "Notes": "",
+          "ObjectStatus": {
+            "Id": "acdcedb7-100c-8c91-d664-4629a218bd94",
+            "Name": "Active"
+          },
+          "Path": "",
+          "ReceivedDate": "",
+          "SerialNumber": "12352",
+          "TimeAdded": "2014-02-27T00:28:49.187"
+        },
+        {
+          "AssetStatus": {
+            "Id": "f37e8b8c-e3df-47c1-bd23-41cb3c8dfa57",
+            "Name": "Retired"
+          },
+          "AssetTag": "54332",
+          "AssignedDate": "",
+          "BaseId": "6ef7110a-41bc-b5d3-ba8d-73fceff942f1",
+          "ClassName": "Cireson.AssetManagement.HardwareAsset",
+          "ClassTypeId": "c0c58e7f-7865-55cc-4600-753305b9be64",
+          "Cost": 1500,
+          "Currency": "",
+          "Description": "",
+          "DisplayName": "wks012.demo.local",
+          "DisposalDate": "",
+          "DisposalReference": "",
+          "ExpectedDate": "",
+          "FullName": "Cireson.AssetManagement.HardwareAsset:12356",
+          "HardwareAssetID": 12356,
+          "HardwareAssetStatus": {
+            "Id": "51d4f57a-b088-2b4b-d50b-e351004d0b67",
+            "Name": "Retired"
+          },
+          "HardwareAssetType": {
+            "Id": "2e42a1e2-f073-2658-e09e-1c167c638735",
+            "Name": "Computer"
+          },
+          "LastModified": "2014-02-27T08:00:02.94",
+          "LastModifiedBy": "7431e155-3d9e-4724-895e-c03ba951a352",
+          "LoanReturnedDate": "",
+          "LoanedDate": "",
+          "LocationDetails": "",
+          "Manufacturer": "Lenovo",
+          "ManufacturerEnum": {
+            "Id": "17329ca6-daff-bbd3-c01d-176dbeff2273",
+            "Name": "Lenovo"
+          },
+          "MasterContractEndDate": "",
+          "MasterContractRenewedOn": "",
+          "MasterContractStartingDate": "",
+          "MasterContractStatus": {
+            "Id": "6a397180-2a99-7d58-813f-3b5ea370746b",
+            "Name": "None"
+          },
+          "Model": "Edge 91z",
+          "ModelEnum": {
+            "Id": "208268e6-d9d3-176e-7d90-bba26f6425ad",
+            "Name": "Edge 91z"
+          },
+          "Name": "wks012.demo.local",
+          "Notes": "",
+          "ObjectStatus": {
+            "Id": "acdcedb7-100c-8c91-d664-4629a218bd94",
+            "Name": "Active"
+          },
+          "Path": "",
+          "ReceivedDate": "",
+          "SerialNumber": "12356",
+          "TimeAdded": "2014-02-27T00:28:49.187"
+        },
+        {
+          "AssetStatus": {
+            "Id": "f37e8b8c-e3df-47c1-bd23-41cb3c8dfa57",
+            "Name": "Retired"
+          },
+          "AssetTag": "54331",
+          "AssignedDate": "",
+          "BaseId": "f6ea5d9a-7d7b-efa3-2ca2-88148e3150e6",
+          "ClassName": "Cireson.AssetManagement.HardwareAsset",
+          "ClassTypeId": "c0c58e7f-7865-55cc-4600-753305b9be64",
+          "Cost": 1500,
+          "Currency": "",
+          "Description": "",
+          "DisplayName": "wks011.demo.local",
+          "DisposalDate": "",
+          "DisposalReference": "",
+          "ExpectedDate": "",
+          "FullName": "Cireson.AssetManagement.HardwareAsset:12355",
+          "HardwareAssetID": 12355,
+          "HardwareAssetStatus": {
+            "Id": "51d4f57a-b088-2b4b-d50b-e351004d0b67",
+            "Name": "Retired"
+          },
+          "HardwareAssetType": {
+            "Id": "2e42a1e2-f073-2658-e09e-1c167c638735",
+            "Name": "Computer"
+          },
+          "LastModified": "2014-02-27T08:00:03.333",
+          "LastModifiedBy": "7431e155-3d9e-4724-895e-c03ba951a352",
+          "LoanReturnedDate": "",
+          "LoanedDate": "",
+          "LocationDetails": "",
+          "Manufacturer": "Lenovo",
+          "ManufacturerEnum": {
+            "Id": "17329ca6-daff-bbd3-c01d-176dbeff2273",
+            "Name": "Lenovo"
+          },
+          "MasterContractEndDate": "",
+          "MasterContractRenewedOn": "",
+          "MasterContractStartingDate": "",
+          "MasterContractStatus": {
+            "Id": "6a397180-2a99-7d58-813f-3b5ea370746b",
+            "Name": "None"
+          },
+          "Model": "Edge 91z",
+          "ModelEnum": {
+            "Id": "208268e6-d9d3-176e-7d90-bba26f6425ad",
+            "Name": "Edge 91z"
+          },
+          "Name": "wks011.demo.local",
+          "Notes": "",
+          "ObjectStatus": {
+            "Id": "acdcedb7-100c-8c91-d664-4629a218bd94",
+            "Name": "Active"
+          },
+          "Path": "",
+          "ReceivedDate": "",
+          "SerialNumber": "12355",
+          "TimeAdded": "2014-02-27T00:28:49.187"
+        },
+        {
+          "AssetStatus": null,
+          "AssetTag": "54326",
+          "AssignedDate": "",
+          "BaseId": "a2dca681-a191-5836-619c-a19c2f4f6f08",
+          "ClassName": "Cireson.AssetManagement.HardwareAsset",
+          "ClassTypeId": "c0c58e7f-7865-55cc-4600-753305b9be64",
+          "Cost": 1200,
+          "Currency": null,
+          "Description": "",
+          "DisplayName": "wks006.demo.local",
+          "DisposalDate": "",
+          "DisposalReference": "",
+          "ExpectedDate": "",
+          "FullName": "Cireson.AssetManagement.HardwareAsset:12350",
+          "HardwareAssetID": 12350,
+          "HardwareAssetStatus": {
+            "Id": "6e3af0fb-38ee-a227-536d-4fcd26506854",
+            "Name": "In Stock"
+          },
+          "HardwareAssetType": {
+            "Id": "2e42a1e2-f073-2658-e09e-1c167c638735",
+            "Name": "Computer"
+          },
+          "LastModified": "2014-02-27T08:00:03.99",
+          "LastModifiedBy": "7431e155-3d9e-4724-895e-c03ba951a352",
+          "LoanReturnedDate": "",
+          "LoanedDate": "",
+          "LocationDetails": "",
+          "Manufacturer": "Lenovo",
+          "ManufacturerEnum": {
+            "Id": "17329ca6-daff-bbd3-c01d-176dbeff2273",
+            "Name": "Lenovo"
+          },
+          "MasterContractEndDate": "",
+          "MasterContractRenewedOn": "",
+          "MasterContractStartingDate": "",
+          "MasterContractStatus": {
+            "Id": "6a397180-2a99-7d58-813f-3b5ea370746b",
+            "Name": "None"
+          },
+          "Model": "W530",
+          "ModelEnum": {
+            "Id": "73204724-4e58-ee03-cba8-9b93f2319716",
+            "Name": "W530"
+          },
+          "Name": "wks006.demo.local",
+          "Notes": "",
+          "ObjectStatus": {
+            "Id": "acdcedb7-100c-8c91-d664-4629a218bd94",
+            "Name": "Active"
+          },
+          "Path": "",
+          "ReceivedDate": "",
+          "SerialNumber": "12350",
+          "TimeAdded": "2014-02-27T00:28:49.187"
+        },
+        {
+          "AssetStatus": null,
+          "AssetTag": "54330",
+          "AssignedDate": "",
+          "BaseId": "3a5beb21-b08c-8280-fc55-b5144c7fefd5",
+          "ClassName": "Cireson.AssetManagement.HardwareAsset",
+          "ClassTypeId": "c0c58e7f-7865-55cc-4600-753305b9be64",
+          "Cost": 1200,
+          "Currency": "",
+          "Description": "",
+          "DisplayName": "wks010.demo.local",
+          "DisposalDate": "",
+          "DisposalReference": "",
+          "ExpectedDate": "",
+          "FullName": "Cireson.AssetManagement.HardwareAsset:12354",
+          "HardwareAssetID": 12354,
+          "HardwareAssetStatus": {
+            "Id": "6e3af0fb-38ee-a227-536d-4fcd26506854",
+            "Name": "In Stock"
+          },
+          "HardwareAssetType": {
+            "Id": "2e42a1e2-f073-2658-e09e-1c167c638735",
+            "Name": "Computer"
+          },
+          "LastModified": "2014-02-27T08:00:04.357",
+          "LastModifiedBy": "7431e155-3d9e-4724-895e-c03ba951a352",
+          "LoanReturnedDate": "",
+          "LoanedDate": "",
+          "LocationDetails": "",
+          "Manufacturer": "Lenovo",
+          "ManufacturerEnum": {
+            "Id": "17329ca6-daff-bbd3-c01d-176dbeff2273",
+            "Name": "Lenovo"
+          },
+          "MasterContractEndDate": "",
+          "MasterContractRenewedOn": "",
+          "MasterContractStartingDate": "",
+          "MasterContractStatus": {
+            "Id": "6a397180-2a99-7d58-813f-3b5ea370746b",
+            "Name": "None"
+          },
+          "Model": "W530",
+          "ModelEnum": {
+            "Id": "73204724-4e58-ee03-cba8-9b93f2319716",
+            "Name": "W530"
+          },
+          "Name": "wks010.demo.local",
+          "Notes": "",
+          "ObjectStatus": {
+            "Id": "acdcedb7-100c-8c91-d664-4629a218bd94",
+            "Name": "Active"
+          },
+          "Path": "",
+          "ReceivedDate": "",
+          "SerialNumber": "12354",
+          "TimeAdded": "2014-02-27T00:28:49.187"
+        },
+        {
+          "AssetStatus": null,
+          "AssetTag": "54329",
+          "AssignedDate": "",
+          "BaseId": "4a838869-2390-b9c3-ba81-e8176733d192",
+          "ClassName": "Cireson.AssetManagement.HardwareAsset",
+          "ClassTypeId": "c0c58e7f-7865-55cc-4600-753305b9be64",
+          "Cost": 1200,
+          "Currency": "",
+          "Description": "",
+          "DisplayName": "wks009.demo.local",
+          "DisposalDate": "",
+          "DisposalReference": "",
+          "ExpectedDate": "",
+          "FullName": "Cireson.AssetManagement.HardwareAsset:12353",
+          "HardwareAssetID": 12353,
+          "HardwareAssetStatus": {
+            "Id": "6e3af0fb-38ee-a227-536d-4fcd26506854",
+            "Name": "In Stock"
+          },
+          "HardwareAssetType": {
+            "Id": "2e42a1e2-f073-2658-e09e-1c167c638735",
+            "Name": "Computer"
+          },
+          "LastModified": "2014-02-27T08:00:04.69",
+          "LastModifiedBy": "7431e155-3d9e-4724-895e-c03ba951a352",
+          "LoanReturnedDate": "",
+          "LoanedDate": "",
+          "LocationDetails": "",
+          "Manufacturer": "Lenovo",
+          "ManufacturerEnum": {
+            "Id": "17329ca6-daff-bbd3-c01d-176dbeff2273",
+            "Name": "Lenovo"
+          },
+          "MasterContractEndDate": "",
+          "MasterContractRenewedOn": "",
+          "MasterContractStartingDate": "",
+          "MasterContractStatus": {
+            "Id": "6a397180-2a99-7d58-813f-3b5ea370746b",
+            "Name": "None"
+          },
+          "Model": "W530",
+          "ModelEnum": {
+            "Id": "73204724-4e58-ee03-cba8-9b93f2319716",
+            "Name": "W530"
+          },
+          "Name": "wks009.demo.local",
+          "Notes": "",
+          "ObjectStatus": {
+            "Id": "acdcedb7-100c-8c91-d664-4629a218bd94",
+            "Name": "Active"
+          },
+          "Path": "",
+          "ReceivedDate": "",
+          "SerialNumber": "12353",
+          "TimeAdded": "2014-02-27T00:28:49.187"
+        }
+      ],
+      "TimeAdded": "2014-02-27T00:28:49.187"
+    }
+  ],
+  "message": "message abc",
+  "exception": "exception"
+}

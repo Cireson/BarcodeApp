@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/cireson_main_container"
+    android:orientation="vertical">
+    <!--Large text at the top that indicates a purchase order-->
+    <LinearLayout
+      style="@style/cireson_header_linear_layout"
+      android:orientation="vertical"
+      >
+    <TextView
+        style="@style/cireson_title"
+        android:text="@string/possible_matched_assets_title"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        />
+    <TextView
+        android:id="@+id/possible_matched_assets_barcode_number"
+        style="@style/cireson_sub_title"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/possible_matched_assets_sub_title"
+        />
+    </LinearLayout>
+    <!-- horizontal white line -->
+    <LinearLayout style="@style/cireson_single_white_line"/>
+    <!--Container-->
+    <ListView
+        android:id="@+id/possible_matched_assets_lists"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice"
+        android:divider="@drawable/seperator_horizontal"
+        >
+    </ListView>
+    <!--Perform cancel or done-->
+    <Button
+        android:id="@+id/possible_matched_assets_done"
+        style="@style/cireson_footer_button"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_done"
+        android:onClick="done"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: core-3.0.0-20140202.181413-6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/scanner/libs/core-3.0.0-20140202.181413-6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

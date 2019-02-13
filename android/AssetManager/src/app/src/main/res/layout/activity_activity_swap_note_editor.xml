@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/cireson_main_container"
+    tools:context="com.cireson.assetmanager.activity_swap_note_editor">
+    <LinearLayout
+        android:id="@+id/idSwapNoteEditorHeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/idSwapNoteEditorTitleText"
+            style="@style/cireson_title"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/swap_assets_note_editor_title" />
+    </LinearLayout>
+    <!-- horizontal white line -->
+    <LinearLayout
+        style="@style/cireson_single_white_line"
+        android:layout_below="@id/idSwapNoteEditorHeaderLayout"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp" />
+    <EditText
+        android:id="@+id/idSwapNoteEditorTextBox"
+        style="@style/cireson_edit_texts"
+        android:layout_height="200dp"
+        android:layout_below="@id/idSwapNoteEditorHeaderLayout"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="top"
+        android:inputType="textNoSuggestions" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_color"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/idSwapNoteEditorClearButton"
+            style="@style/cireson_footer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clear"
+            android:text="@string/button_clear" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+        <Button
+            android:id="@+id/idSwapNoteEditorDoneButton"
+            style="@style/cireson_footer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="done"
+            android:text="@string/button_done" />
+    </LinearLayout>
+</RelativeLayout>

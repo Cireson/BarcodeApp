@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        style="@style/cireson_main_container"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/selectTitleTextView"
+                style="@style/cireson_title"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="20dp"
+                android:text="@string/select_title" />
+            <LinearLayout
+                style="@style/cireson_single_white_line"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ListView
+                android:id="@+id/selectListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:choiceMode="singleChoice"
+                android:divider="@drawable/seperator_horizontal"></ListView>
+            <LinearLayout
+                android:id="@+id/selectListIndexView"
+                android:layout_width="20dp"
+                android:layout_height="fill_parent"
+                android:background="#C87C29"
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_color"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/select_clear_button"
+                style="@style/cireson_footer_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clear"
+                android:text="@string/button_clear" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></LinearLayout>
+            <Button
+                android:id="@+id/select_done_button"
+                style="@style/cireson_footer_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="done"
+                android:text="@string/button_done" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--<ProgressBar-->
+    <!--android:id="@+id/loadingView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"  />-->
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/cireson_main_container"
+    android:orientation="vertical"
+    >
+    <!--Header-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/titleNumberOfReviewEmailSettings"
+                style="@style/cireson_text_title_number"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="0"
+                />
+            <TextView
+                style="@style/cireson_title"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/review_email_settings_title"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/cireson_single_white_line"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+    <!--Header End-->
+    <!--Layout with buttons-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/reviewEmailNotInventoriedButton"
+            style="@style/WhiteleftRoundButton"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:onClick="filterNonInventoried"
+            android:text="@string/review_email_settings_not_inventoried"/>
+        <Button
+            android:id="@+id/reviewEmailInventoriedButton"
+            style="@style/WhiteCenterButton"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:onClick="filterInventoried"
+            android:text="@string/review_email_settings_inventoried"/>
+        <Button
+            android:id="@+id/reviewEmailNoMatchButton"
+            style="@style/WhiteRightRoundButton"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:onClick="filterNoMatch"
+            android:text="@string/review_email_settings_no_match"/>
+    </LinearLayout>
+    <!-- horizontal white line -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/white"/>
+    <!--Contains Results-->
+    <ListView
+        android:id="@+id/reviewEmailListView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@drawable/seperator_horizontal"
+        >
+    </ListView>
+    <!-- horizontal white line -->
+    <LinearLayout style="@style/cireson_single_white_line"/>
+    <!--Next activity to invoke for emailing-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_color"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/inventory_audit_email_btn"
+            style="@style/cireson_footer_button"
+            android:text="@string/button_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="email"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+        <Button
+            android:id="@+id/inventory_audit_home_btn"
+            style="@style/cireson_footer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:onClick="toHome"/>
+    </LinearLayout>
+</LinearLayout>

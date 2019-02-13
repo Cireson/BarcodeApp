@@ -1,0 +1,34 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundgradient">
+    <TextView
+        android:id="@+id/id_settings_current_bluetooth_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@android:color/white"
+        android:text="@string/settings_currently_using_device_name"/>
+    <Button
+        android:id="@+id/id_settings_change_bluetooth_scanner_button"
+        style="@style/cireson_buttons"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/settings_change_bluetooth_scanner"
+        android:onClick="chooseBluetoothScanner"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnLogout"
+        style="@style/cireson_buttons"
+        android:background="@drawable/selector_logout_button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/settings_logout"
+        android:onClick="Logout"/>
+</LinearLayout>

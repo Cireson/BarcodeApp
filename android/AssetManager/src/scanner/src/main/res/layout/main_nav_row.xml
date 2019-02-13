@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/main_nav_panel_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:id="@+id/nav_line_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DF771E"
+        android:minHeight="140dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+    <com.cireson.scanner.util.DynamicHeightImageView
+        android:id="@+id/navImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DF771E"
+        android:gravity="center_horizontal"
+        android:layout_weight="1.0"  />
+    <com.cireson.scanner.util.DynamicHeightTextView
+        android:id="@+id/navTextLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DF771E"
+        android:requiresFadingEdge="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal|bottom" />
+    </LinearLayout>
+
+</FrameLayout>

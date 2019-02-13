@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.cireson.assetmanager.component.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/status_tree_view_item_background"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/imgExpand"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_margin="3dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/plus"
+            android:onClick="expandOrCollapseItems"/>
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_vertical"/>
+        <!--<RadioButton-->
+            <!--android:id="@+id/radio"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:button="@drawable/radio_button"/>-->
+        <!--<CheckBox-->
+            <!--android:id="@+id/checkbox"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:button="@drawable/custom_check_box"-->
+            <!--android:visibility="gone"/>-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/seperator_horizontal"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"/>
+</com.cireson.assetmanager.component.CheckableLinearLayout>

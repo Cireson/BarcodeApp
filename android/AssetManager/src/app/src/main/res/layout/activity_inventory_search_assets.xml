@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        style="@style/cireson_main_container"
+        android:orientation="vertical">
+        <!--Header-->
+        <LinearLayout
+            android:id="@+id/inventorySearchAssetsHeaderLayout"
+            style="@style/cireson_header_linear_layout"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <TextView
+                android:id="@+id/inventory_search_assets_title"
+                style="@style/cireson_title"
+                android:text="@string/inventory_search_title"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                />
+            <TextView
+                android:id="@+id/inventory_search_assets_sub_title"
+                style="@style/cireson_sub_title"
+                android:text=""
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                />
+            <!--"@string/inventory_search_sub_title"-->
+        </LinearLayout>
+        <!-- horizontal white line -->
+        <LinearLayout   style="@style/cireson_single_white_line"/>
+        <ListView
+            android:id="@+id/inventory_search_assets_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@drawable/seperator_horizontal"
+            >
+        </ListView>
+        <!--Next activity to invoke-->
+        <Button
+            android:id="@+id/activity_new_product_next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/cireson_footer_button"
+            android:text="@string/next"
+            android:onClick="next"
+            />
+    </LinearLayout>
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/loadingView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/backgroundgradient">-->
+        <!--<ProgressBar-->
+            <!--android:id="@+id/progressBar"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:indeterminate="true"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:text="Please wait..."-->
+            <!--android:layout_below="@id/progressBar"-->
+            <!--android:layout_centerHorizontal="true"/>-->
+    <!--</RelativeLayout>-->
+</RelativeLayout>
+
+
+

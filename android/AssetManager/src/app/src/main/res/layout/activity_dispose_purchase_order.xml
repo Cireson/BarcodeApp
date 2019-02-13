@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/cireson_main_container"
+    android:orientation="vertical">
+    <!--Header layout-->
+    <LinearLayout style="@style/cireson_header_linear_layout"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        >
+        <TextView
+            android:id="@+id/titleCount"
+            style="@style/cireson_text_title_number"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="@string/dispose_purchase_count"/>
+        <TextView
+            style="@style/cireson_title"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="@string/dispose_purchase_title"/>
+    </LinearLayout>
+    <!-- horizontal white line -->
+    <LinearLayout style="@style/cireson_single_white_line"/>
+    <!--Body-->
+    <ListView
+        android:id="@+id/dispose_assets_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:divider="@drawable/seperator_horizontal"
+        android:layout_weight="1">
+    </ListView>
+    <!--End of layout with texts and toggle buttons-->
+    <!--Next activity to invoke-->
+    <Button
+        android:id="@+id/dispose_purchase_order_save"
+        style="@style/cireson_footer_button"
+        android:text="Save"
+        android:onClick="save"/>
+</LinearLayout>

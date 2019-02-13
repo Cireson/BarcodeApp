@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:id="@+id/linear_layout_match_confirmation"
+    android:background="@drawable/backgroundgradient">
+    <!--Heading with result count and search text-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/matchConfirmationNumberOfMatches"
+            style="@style/cireson_text_title_number"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/matchConfirmationTitle"
+            style="@style/cireson_title"
+            android:layout_centerInParent="true"
+            android:text="Matching Purchase Order for:"/>
+        <TextView
+            style="@style/cireson_sub_title"
+            android:layout_below="@id/matchConfirmationTitle"
+            android:layout_alignLeft="@id/matchConfirmationTitle"
+            android:text="#235345234"/>
+    </RelativeLayout>
+    <!-- horizontal white line -->
+    <LinearLayout style="@style/cireson_single_white_line"/>
+    <ListView
+        android:id = "@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="@drawable/seperator_horizontal"
+        android:layout_weight="1.0">
+    </ListView>
+</LinearLayout>
+
+

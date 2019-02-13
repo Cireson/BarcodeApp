@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/cireson_main_container"
+    android:orientation="vertical">
+    <!--Header-->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/selectTitleTextView"
+            style="@style/cireson_title"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/date_picker_title"/>
+        <LinearLayout
+            style="@style/cireson_single_white_line"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <!--Header End-->
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/date_reset_button"
+        style="@style/cireson_footer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="reset"
+        android:text="@string/button_reset"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginBottom="20dp">-->
+        <!--<CheckBox-->
+            <!--android:id="@+id/checkbox"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:button="@drawable/custom_check_box"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:textSize="16dp"-->
+            <!--android:text="@string/date_picter_check_box_descriptor"/>-->
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_color"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/date_cancel_button"
+            style="@style/cireson_footer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cancel"
+            android:text="@string/button_cancel" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+        <Button
+            android:id="@+id/date_done_button"
+            style="@style/cireson_footer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="done"
+            android:text="@string/button_done" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/cireson_main_container"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/productlogobrown"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#745128"
+        android:text="IT Assets Management"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="17sp"
+        android:textColor="#745128"
+        android:text="by Cireson"
+        android:textStyle="bold|italic"/>
+    <LinearLayout style="@style/cireson_body_linear_layout" android:layout_marginTop="20dp">
+        <EditText
+            style="@style/cireson_edit_texts"
+            android:layout_margin="7dp"
+            android:inputType="textAutoComplete"
+            android:hint="URL"/>
+        <EditText
+            style="@style/cireson_edit_texts"
+            android:layout_margin="7dp"
+            android:inputType="textAutoComplete"
+            android:hint="UserName"/>
+        <EditText
+            style="@style/cireson_edit_texts"
+            android:layout_margin="7dp"
+            android:hint="Password"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:layout_margin="7dp"
+            android:minLines="6"
+            android:background="@drawable/corners_bg"/>
+    </LinearLayout>
+    <!--Save-->
+    <Button
+        style="@style/cireson_footer_button"
+        android:text="Save"
+        android:onClick="save"/>
+</LinearLayout>

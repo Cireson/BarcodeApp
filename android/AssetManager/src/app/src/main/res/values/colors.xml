@@ -1,0 +1,16 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="orange_text_color">#ff8c22</color>
+    <color name="row_highlight_color">#FFAF00</color>
+    <color name="row_highlight_color_for_grid">#000000</color>
+    <color name="gray_text_color">#cccccc</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="dialog_strip">#33b5e5</color>
+    <color name="red_color">#E60000</color>
+    <color name="dark_red_color">#B41512</color>
+    <color name="light_brown_color">#EA7225</color>
+    <color name="dark_brown_color">#B47400</color>
+    <color name="semi_transparent_gray">#BA995D</color>
+    <color name="border_color">#eaae45</color>
+</resources>
